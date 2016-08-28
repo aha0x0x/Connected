@@ -1,0 +1,11 @@
+This project uses maven to compile the solution.
+
+To compile: mvn package in the current folder
+
+This will compile and generate a jar file in target folder 
+
+To run:
+ java -jar target/Connected-1.0.jar <filename> <city1> <city2>
+
+ for example: java -jar target/Connected-1.0.jar cities.txt Montreal Toronto 
+ 
